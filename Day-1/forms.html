@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> creating forms</title>
+    </head>
+    <body>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+            <!-- i have change method="post" to method="post" enctype and so on to choose large file of data like images-->
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="something" minlength="6" maxlength="16" required>
+
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="6" maxlength="16" required><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="youremail@gmail.com"></br>
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="9670824678" minlength="10" maxlength="10" required><br>
+            <label for="bday"> birthday:</label>
+            <input type="date" id="bday"><br>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1"><br>
+            <label for="title">Mr.:</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="title">Ms.:</label>
+            <input type="radio" id="Ms." value="Ms." name="title" >
+            <label for="title">PhD.:</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br>
+            <label for="payment">payment:</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+                <option value="credit card">creditcard</option>
+
+
+            </select><br>
+            <label for="subscribe">subscribe</label>
+            <input type="checkbox" id="subscribe"> <br>
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3" cols="25"> </textarea>
+            <!-- this next two line is for file submition-->
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/jpeg, image/png"> <br>
+            <!--the above two lines make that choosen file button by this we can directly choose any file from our laptop to save this form in this  -->
+            
+
+
+
+            <input type="reset"><br>            
+            <input type="submit">
+            
+
+        </form>
+    </body>
+</html>
