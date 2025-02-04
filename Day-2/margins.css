@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    height: 250px;
+    width: 250px;
+}
+    
+
+
+
+
+#box1 {
+    background-color: hsl(0, 100%, 60%);
+    margin: 50px;
+    
+}
+#box2 {
+    background-color: hsl(189, 100%, 55%);                    
+}

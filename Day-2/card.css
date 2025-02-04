@@ -1,0 +1,24 @@
+#box1 {
+    margin: 60px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(197, 219, 238);
+    position: sticky;
+}
+
+#box2 {
+    margin: 90px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(240, 235, 235);
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    background-image: url(pexels-photo-3572740.jpeg);
+    background-size: 300px 180px; /* Adjust the background image size */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}

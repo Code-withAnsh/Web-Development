@@ -1,0 +1,14 @@
+h1{
+    font-family: verdana, arial;
+}
+p{
+    font-family: 'Lucida Sans';
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+        /* so font can we also measure in px, em 1em=100% 1.1em is 110% of actual size*/
+
+}
+#p2{
+    font-size: 1.5em;
+}
