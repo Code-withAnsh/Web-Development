@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selector
+        
+
+    </title>
+    <style>
+        /*.box:first-child{
+            background-color: red;
+        }*/
+        /*.box::first-line{
+            color: yellow;
+        }*/
+       /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        [data-color="primary"]{
+            margin-top: 45px;
+        }
+        .box:nth-child(even){
+            background-color: blue;
+        }
+        .box:nth-last-child(1){
+            background-color: red;
+        */
+        .boxes::selection{
+            color: rgb(165, 180, 145);
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="boxes" id="selection">
+    <div class="box" data-color="primary">Hey i am a box</div>
+    <div class="box">Hey i am a box</div>
+    <div class="box">Hey i am a box</div>
+   </div>
+    
+</body>
+</html>

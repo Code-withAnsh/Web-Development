@@ -1,0 +1,14 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: block;
+    visibility: hidden;
+}
+span{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+/* so as you see that the div takes only thaat space that he nedded so it is a inline while div takes whole line so it is a block-level*/
